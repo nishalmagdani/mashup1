@@ -64,10 +64,10 @@ import pprint
 
 # Twitter OAuth Authentication params:
 # Enter the keys here that you get after registering the app with Bluemix
-consumer_key =   ""
-consumer_secret= ""
-access_token=  ""
-access_token_secret= ""
+consumer_key =   "zmPNXDSgmCrnXhTVzpwFWRwHE"
+consumer_secret= "CkwQMp1tMl4esCLrbikEJGAYaHdxTXQ31785F72dC1ACw7YFu7"
+access_token=  "2321352794-utLQ5ZjqveO0eup9007aHdtCHBbAUOqIOYpkqbh"
+access_token_secret= "veW6684ZnCr8HqW0b5MryFsSofCxLNQYBBiUccWHNGTVo"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -79,7 +79,7 @@ api = tweepy.API(auth)
 
 # Klout Constants and Objects
 # Here the Klout Developer Key should be entered after registering the app with Klout
-k = Klout('klout key here')
+k = Klout('we32fj8myamtuj2ygcw2sh2u')
 # -----
 
 smtp_flag = False;
